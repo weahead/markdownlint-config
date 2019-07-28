@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/weahead/markdownlint-config/issues"
   },
-  "homepage": "https://github.com/weahead/markdownlint-config#readme"
+  "homepage": "https://github.com/weahead/markdownlint-config#readme",
+  "devDependencies": {
+    "markdownlint-cli": "0.17.0"
+  },
+  "peerDependencies": {
+    "markdownlint-cli": "*"
+  }
 }
