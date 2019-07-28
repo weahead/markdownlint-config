@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "We aheads configuration for Markdownlint.",
   "main": "index.js",
+  "scripts": {
+    "commit": "commit"
+  },
   "files": [
     "index.json"
   ],
@@ -17,6 +20,10 @@
   },
   "homepage": "https://github.com/weahead/markdownlint-config#readme",
   "devDependencies": {
+    "@commitlint/cli": "8.1.0",
+    "@commitlint/config-conventional": "8.1.0",
+    "@commitlint/prompt-cli": "8.1.0",
+    "@weahead/commitlint-config": "0.1.1",
     "markdownlint-cli": "0.17.0"
   },
   "peerDependencies": {
