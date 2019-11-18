@@ -6,10 +6,12 @@
   "scripts": {
     "commit": "commit",
     "lint": "eslint --fix '**/*.js' '**/*.json'",
-    "lint:md": "markdownlint *.md"
+    "lint:md": "markdownlint *.md",
+    "postinstall": "./scripts/postinstall.sh"
   },
   "files": [
-    "index.json"
+    "index.json",
+    "scripts/*"
   ],
   "repository": {
     "type": "git",

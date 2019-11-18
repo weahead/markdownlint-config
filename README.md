@@ -8,23 +8,13 @@
 
 ### Usage
 
-1. Create a file named `.markdownlint.json` and fill it with:
+A `.markdownlint.json` file will automatically be created in the root of your project with:
 
-   ```json
-   {
-     "extends": "./node_modules/@weahead/markdownlint-config/index.json"
-   }
-   ```
-
-2. Optionally, add a run target to `scripts` in `package.json`:
-
-   ```json
-   {
-     "scripts": {
-       "lint:md": "markdownlint *.md"
-     }
-   }
-   ```
+```json
+{
+  "extends": ["@weahead/markdownlint-config"]
+}
+```
 
 ## License
 
