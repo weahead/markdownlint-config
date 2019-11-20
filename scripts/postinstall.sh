@@ -1,5 +1,5 @@
 #!/bin/sh
 
-if [ ! -f "${INIT_CWD}/.eslintrc.json" ]; then
-  echo '{\n  "extends": ["@weahead/eslint-config-react"]\n}' > "${INIT_CWD}/.eslintrc.json"
+if [ ! -f "${INIT_CWD}/.markdownlint.json" ]; then
+  echo '{\n  "extends": ["@weahead/markdownlint-config"]\n}' > "${INIT_CWD}/.markdownlint.json"
 fi
