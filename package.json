@@ -7,7 +7,7 @@
     "commit": "commit",
     "lint": "eslint --fix '**/*.js' '**/*.json'",
     "lint:md": "markdownlint *.md",
-    "postinstall": "./scripts/postinstall.sh"
+    "postinstall": "node scripts/postinstall.js"
   },
   "files": [
     "index.json",
